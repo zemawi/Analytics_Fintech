@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Environment & config
+*.env
+.env.*
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+*.json
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Python packaging artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Oracle/SQL dumps (if needed)
+*.sql
+
+# Reports
+reports/*.pdf
+reports/*.docx
+
+# Misc
+*.bak
+*.tmp
