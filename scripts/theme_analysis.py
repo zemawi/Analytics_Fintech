@@ -11,11 +11,11 @@ keywords = vectorizer.get_feature_names_out()
 # Save top 30 keywords
 top_keywords = pd.DataFrame(keywords, columns=["keyword"])
 top_keywords.to_csv("keywords.csv", index=False)
-print("✅ Keywords saved to keywords.csv")
+print(" Keywords saved to keywords.csv")
 df["theme"] = df["review"].apply(lambda r: "Account Access" if "login" in r else
                                                 "Performance" if "slow" in r else
                                                 "App Stability" if "crash" in r else
                                                 "Other")
 
 df.to_csv("final_reviews.csv", index=False)
-print("✅ Final reviews with themes saved to final_reviews.csv")
+print(" Final reviews with themes saved to final_reviews.csv")
