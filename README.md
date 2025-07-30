@@ -1,4 +1,4 @@
-#  Fintech App Review Analytics – Tenx Week 2 Challenge
+#  Fintech App Review Analytics –
 
 Analyze customer feedback on Ethiopian mobile banking apps to help improve app performance and user satisfaction.  
 This project simulates real-world consulting work by scraping, cleaning, and analyzing Google Play Store reviews using Python and NLP.
